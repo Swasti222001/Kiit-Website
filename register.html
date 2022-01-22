@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+
+    <title>Feedback Form</title>
+</head>
+<style>
+    .mydiv{
+        display:flex;
+        
+        border: 5px double black;
+        margin: 2rem;
+        font-size: 20px;
+        padding: 2rem;
+        background-color: rgb(248, 244, 239);
+    }
+    h2{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+<body>
+
+    <div class="mydiv">
+        <form>
+            <h2><u>REGISTRATION FORM</u></h2>
+            <label for="name">Name :</label><br>
+            <input type="text" name="name" placeholder="Enter Your Name"><br>
+
+            <label for="mail">Email :</label><br>
+            <input type="email" name="mail" placeholder="Enter Your Email Address"><br>
+            <label for="roll">Roll Number :</label><br>
+            <input type="roll" name="roll" placeholder="Enter Your roll number"><br>
+            <label for="name">Book Name :</label><br>
+            <input type="Name" name="name" placeholder="Enter the book name"><br>
+            <label for="phn">Phone No :</label><br>
+            <input type="telephone" name="phn" placeholder="Enter Your Phone Number"><br><br>
+            <label for="eva">Date of Issue of book :</label>
+            <input type="date" name="eva"><br><br>
+            <p>Most liked part of the Website :</p>
+            <input type="radio" name="">
+            <label for="">Content</label><br>
+            <input type="radio" name="">
+            <label for="">Appearance</label><br>
+            <input type="radio" name="">
+            <label for="">Way of Presentation</label><br><br>
+
+            <label for="range">How much would you rate our service from 0 to 10 ?</label><br>
+            <input type="range" name="range"><br>
+            <p>How would u liked to be informed about new schemes ?</p>
+            <input type="checkbox">
+            <label for="">Call</label><br>
+            <input type="checkbox">
+            <label for="">Email</label><br>
+            <input type="checkbox">
+            <label for="">SMS</label><br><br>
+            <label for="sl">Would you revisit the website ?</label><br>
+            <select name="sl">
+                <option value="select">SELECT</option>
+                <option value="NO">NO</option>
+                <option value="YES">YES</option>
+                <option value="Maybe">MAYBE</option>
+            </select><br><br>
+           
+            <button class="button">SUBMIT</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
